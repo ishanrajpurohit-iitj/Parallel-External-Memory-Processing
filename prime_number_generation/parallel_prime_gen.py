@@ -1,6 +1,7 @@
 # Parallel prime generation logic
 import multiprocessing as mp
-from sieve_of_eratosthenes import sieve_of_eratosthenes
+from prime_number_generation.sieve_of_eratosthenes import sieve_of_eratosthenes
+
 
 def parallel_prime_gen(range_start, range_end):
     # Splitting work for parallel execution (simplified example)
